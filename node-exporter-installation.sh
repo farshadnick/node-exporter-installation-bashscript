@@ -17,7 +17,7 @@ Type=simple
 ExecStart=/usr/local/bin/node_exporter
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.target" > /etc/systemd/system/node_exporter.service
 
 systemctl daemon-reload
-systemctl enable node_exporter.service
+systemctl enable node_exporter.service 
