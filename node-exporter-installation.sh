@@ -1,4 +1,4 @@
-export RELEASE="1.2.2"
+export RELEASE="1.3.1"
 wget https://github.com/prometheus/node_exporter/releases/download/v$RELEASE/node_exporter-$RELEASE.linux-386.tar.gz
 tar xzf node_exporter-$RELEASE.linux-386.tar.gz
 cd node_exporter-$RELEASE.linux-386/
